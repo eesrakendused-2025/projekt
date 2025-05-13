@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 211, 211);
+    font-family: KodeMono;
+    background-image: url("./BackgroundGridThinLight.png");
+    background-repeat:repeat;
+    background-position-x: center;
+}
+
+@font-face {
+    font-family: KodeMono;
+    src: url(KodeMono-VariableFont_wght.ttf);
+}
+
+.KodeMono {
+    font-family: KodeMono;
+}
+
+.readout {
+    display: flex;
+    justify-content: space-around;
+}
+
+#headerContainer {
+    padding: 1vw;
+    width: 98vw;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+#deprecatedContainer {
+    padding: 1vw;
+    width: 98vw;
+    font-size: 24px;
+    color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234)
+}
+
+
+#booklist {
+    width: 100vw;
+    font-size: 15px;
+    background-color: rgb(128, 128, 128);
+}
+
+#deprecatedBooklist {
+    width: 100vw;
+    font-size: 15px;
+    background-color: rgb(200, 200, 200);
+    color: rgb(50, 50, 50);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <title>Raamatukogu Projekt</title>
+</head>
+<body>
+    <br>
+    <hr/>
+    <div id="headerContainer">
+        <div>[</div>
+        <div>My Bookshelf</div>
+        <div>]</div>
+        <div></div>
+        <div><button id="add-book" onclick="ClickAddBook()">Add Book</button></div>
+        <div><input type="text" placeholder="book name" id="book-name-field"></div>
+    </div>
+
+    <hr style="margin: 0;"/>
+
+    <div id="booklist">
+        ERROR:400 / FAILED_TO_LOAD_DATA &gtW&lt
+    </div>
+
+    <hr/>
+
+    <div id="deprecatedContainer">
+        <div>[</div>
+        <div>⇑ in progress</div>
+        <div>|</div>
+        <div>deprecated ⇓</div>
+        <div>] </div>
+    </div>
+
+    <hr style="margin: 0;"/>
+
+    <div id="deprecatedBooklist">
+        ERROR:400 / FAILED_TO_LOAD_DATA &gtW&lt
+    </div>
+</body>
+</html>
