@@ -1,38 +1,16 @@
-# projekt
-Iseseisev projekt kursuse lõpetamiseks. 
+# Eesrakenduste Projekt: Raamatukogu
+Tegi Marsell Kovalev
 
-Tähtaeg - 1 päev enne esitlust.
+## Funktsionaalsus:
+Projekti idee võetud kasutusele otse ülesannest mis on lingitud all,
+( https://github.com/eesrakendused-2025/projekt )
 
-Eesrakenduste arendamise iseseisva projekti lähteülesanne. 
+-Rakendus võimaldab lisada uusi raamatuid, ning dünaamiliselt sätestada nende lehekülje, kus lugemine on jäetud.
 
-Töö võib teha teha 1-4 liikmelise meeskonnana. Punkte jaotatakse vastavalt sellele, mitu liiget on meeskonnas:
-* 1 liige - max 60 punkti/inimene.
-* 2 liiget - max 40 punkti/inimene.
-* 3 liiget - max 30 punkti/inimene.
-* 4 liiget - max 20 punkti/inimene.
+-On eraldi loetelu raamatute jaoks, mis enam palju huvi ei paku, kas või juba loetud, või lihtsalt igavad.
 
-**NB! Kui meeskonnas on rohkem kui üks liige, siis peab githubis selgelt välja tulema, kes millist osa tegi, et oleks võimalik hinnata iga meeskonnaliikme individuaalset panust.**
+-Kirjeid, mis on ebahuvitavate raamatute seas saab ka ära kustutada, aktiivsed raamatud täiesti on kustutamatud!
 
-README.md fail sisaldab:
-1. suurelt rakenduse nime;
-1. autorite nimesid;
-1. rakenduse funktsionaalsuse kirjeldust;
-1. ekraanitõmmist rakendusest.
-
-Rakenduse puhul peavad olema täidetud vähemalt järgmised nõuded:
-  * rakendus lahendab tõsist probleemi või on meelelahutusliku eesmärgiga; 
-  * rakenduse idee peab olema kooskõlastatud õppejõuga;
-  * responsive disain (kui tegemist pole ainult desktopile mõeldud mänguga);
-  * rakenduse javascripti osa on vähemalt 200 rida koodi ja koodi kordused peavad olema minimeeritud;
-  
-Teema ettepanekud:
- * Kuldvillak
- * Filmiinfo rakendus kasutades moviedatabase api-t - saab otsida filme, seriaale ja teha list enda vaadatud filmidest jne. 
- * Raamaturiiuli rakendus - Saab sisestada kodus olevad raamatud, märkida millised on loetud ja millised on pooleli. Moodustada lugemiseks eraldi liste ning märkida, mis leheküljel on raamat hetkel pooleli.
- * Erinevad mängud.
-
-Rakenduses võib kasutada teiste autorite või AI koodi, aga see peab olema viidatud. Üle 50% koodist (javascript ja CSS) peab olema enda kirjutatud. Kasutada võib erinevaid API-sid ja võib kasutada erinevaid javascripti teeke (library).
-
-# Esitlus
-* Igale grupile on aega 12 minutit (5 minutit rakenduse esitlus, 5 minutit koodi esitlus, 2 minutit küsimused)
-* Esitama peavad grupiliikmed ühisel ajal - peab selgelt välja tulema, kes mida tegi. 
+## Kuvatõmmis rakendusest:
+NB! Pilt on tehtud HDR ekraanil, seega osa detailidest jäävad nähtamatuks.
+![A screenshot of a web library](./AppScreenshot.png)
